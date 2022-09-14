@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/regular.min.css" integrity="sha512-EbT6icebNlvxlD4ECiLvPOVBD0uQdt4pHRg8Gpkfirdu9W8l2rtRZO8rThjqeIK08ubcFeiFKHbek7y+lEbWIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+</head>
+<body>
+    <header class="header-on-mobile">
+        <a href="#" class="navbar-logo navbar-logo--mobile">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Logo S-Music" class="logo-image">
+                <h2 class="logo-heading">S-Music</h2>
+            </div>
+        </a>
+    </header>
+    <div class="container">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-3 c-0 left  ">
+                    <nav class="navbar">
+                        <a href="#" class="navbar-logo">
+                            <div class="logo">
+                                <img src="./assets/img/logo.png" alt="Logo S-Music" class="logo-image">
+                                <h2 class="logo-heading">S-Music</h2>
+                            </div>
+                        </a>
+                        <ul class="nav-list">
+                            <li class="nav-item active">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-house item__icon"></i>
+                                </div>
+                                Home
+                            </li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-arrow-trend-up item__icon"></i>
+                                </div>
+                                Trends</li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-book item__icon"></i>
+                                </div>
+                                Library</li>
+                            <h3>Discover</h3>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-calendar item__icon"></i>
+                                </div>
+                                Discover Weekly</li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-compact-disc item__icon"></i>
+                                </div>
+                                Made For You</li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-music item__icon"></i>
+                                </div>
+                                Daily Mix</li>
+                            <h3>Your Collection</h3>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-heart item__icon"></i>
+                                </div>
+                                Liked Songs</li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-user item__icon"></i>
+                                </div>
+                                Favorite Artist</li>
+                            <li class="nav-item">
+                                <div class="item__option">
+                                    <i class="fa-solid fa-music item__icon"></i>
+                                </div>
+                                Playlist</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col l-6 m-6 c-12 center  ">
+                    <header class="header-with-search hide-on-mobile-tablet">
+                        <div class="header__nav">
+                            <button class="up">
+                                <i class="fa-solid fa-chevron-left up-icon"></i>
+                            </button>
+                            <button class="up active">
+                                <i class="fa-solid fa-chevron-right up-icon"></i>
+                            </button>
+                        </div>
+                        <div class="header__search">
+                            <button class="header__search-icon">
+                                <i class="fa-solid fa-magnifying-glass search__icon"></i>
+                            </button>
+                            <input type="text" placeholder="Search..." class="search-input">
+                            <ul class="search-history-list">
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Taylor Swift</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Maroon</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Ed Sheeran</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Adele</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Alan Walker</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Katy Perry</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                                <li class="search-history-item">
+                                    <a href="#" class="search__item-link">Justin Bieber</a>
+                                    <i class="fa-solid fa-xmark search__item-icon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </header>
+
+                    <!-- slider -->
+                    <div class="wrapper hide-on-mobile-tablet">
+                        <div class="slider">
+                            <div class="slides">
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <input type="radio" name="radio-btn" id="radio5">
+    
+                                <div class="slide first">
+                                    <!-- <img src="./assets/img/slide1.jpg" alt=""> -->
+                                    <div class="slide-thumb" style="background-image: url('./assets/img/slide1.jpg')"></div>
+                                </div>
+                                <div class="side">
+                                    <!-- <img src="./assets/img/slide2.jpg" alt=""> -->
+                                    <div class="slide-thumb" style="background-image: url('./assets/img/slide2.jpg')"></div>
+                                </div>
+                                <div class="side">
+                                    <!-- <img src="./assets/img/slide3.jpg" alt=""> -->
+                                    <div class="slide-thumb" style="background-image: url('./assets/img/slide3.jpg')"></div>
+                                </div>
+                                <div class="side">
+                                    <!-- <img src="./assets/img/slide4.jpg" alt=""> -->
+                                    <div class="slide-thumb" style="background-image: url('./assets/img/slide4.jpg')"></div>
+                                </div>
+                                <div class="side">
+                                    <!-- <img src="./assets/img/slide5.jpg" alt=""> -->
+                                    <div class="slide-thumb" style="background-image: url('./assets/img/slide5.jpg')"></div>
+                                </div>
+    
+                                <div class="navigation-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                    <div class="auto-btn4"></div>
+                                    <div class="auto-btn5"></div>
+                                </div>
+                            </div>
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                                <label for="radio5" class="manual-btn"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="song">
+                        <div class="song-header">
+                            <h2 class="song-heading">Popular</h2>
+                            <h3 class="song-see-all">See all</h3>
+                        </div>
+                        <ul class="songs-title hide-on-mobile-tablet">
+                            <li class="song__title-order">#</li>
+                            <li class="song__title">TITLE</li>
+                            <li class="song__title-playing">PLAYING</li>
+                            <li class="song__title-time">TIME</li>
+                            <li class="song__title-singer">SINGER</li>
+                        </ul>
+                        <ul class="song-list">
+                        </ul>
+                    </div>
+
+                    <!-- playing -->
+                    
+
+                </div>
+                <div class="col l-3 m-3 c-0 right  ">
+                    <nav class="login-user">
+                        <div class="login-logout">
+                            <i class="fa-solid fa-user login__icon"></i>
+                            <div class="login">
+                                <a href="#" class="login">Log in</a>
+                                <a href="#" class="register">Register</a>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <img src="./assets/img/anhdaidien.jpg" alt="Avatar" class="user__img">
+                            <div class="user-area">
+                                <p class="user__name">Huynh Ngoc Son</p>
+                                <div class="user-rank">
+                                    <p class="user__rank">Premium Member</p>
+                                    <i class="fa-solid fa-crown user__icon"></i>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-bell user__icon-bell"></i>
+                        </div>
+                        <div class="song-header">
+                            <h2 class="song-heading">Recent Player</h2>
+                            <h3 class="song-see-all">See all</h3>
+                        </div>
+                        <ul class="song-popular-list">
+                            <li class="popular__item">
+                                <img src="./assets/img/pic1.jpg" alt="Song Image" class="song__img">
+                                <div class="popular__des">
+                                    <span class="popular__title">Me Anh bat chia tay</span>
+                                    <span class="popular__singer">Miu Le</span>
+                                </div>
+                                <span class="popular__date">12min ago</span>
+                            </li>
+                            <li class="popular__item">
+                                <img src="./assets/img/pic1.jpg" alt="Song Image" class="song__img">
+                                <div class="popular__des">
+                                    <span class="popular__title">Me Anh bat chia tay</span>
+                                    <span class="popular__singer">Miu Le</span>
+                                </div>
+                                <span class="popular__date">12min ago</span>
+                            </li>
+                            <li class="popular__item">
+                                <img src="./assets/img/pic1.jpg" alt="Song Image" class="song__img">
+                                <div class="popular__des">
+                                    <span class="popular__title">Me Anh bat chia tay</span>
+                                    <span class="popular__singer">Miu Le</span>
+                                </div>
+                                <span class="popular__date">12min ago</span>
+                            </li>
+                        </ul>
+                        
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="footer">Footer</footer> -->
+    <div class="playing">
+        <div class="singer-mobile">
+            <img src="./assets/img/taylor-swift.jpg" alt="Singer" class="singer-img-mb singer-img-2">
+            
+        </div>
+        <div class="singer-wrapper hide-on-mobile-tablet">
+            <div class="singer-song">
+                <h2 class="singer__song-playing">Vi me anh bat chia tay</h2>
+                <h3 class="singer__song">Miu Le</h3>
+            </div>
+            <!-- <i class="fa-solid fa-heart singer__icon"></i> -->
+        </div>
+        <div class="playing__play-main">
+            
+            <div class="playing-icon">
+                <div class="playing__options">
+                    <i class="fa-solid fa-heart playing__icon"></i>
+                    <i class="fa-solid fa-sliders playing__icon"></i>
+                </div>
+                <div class="playing__play">
+                    <i class="fa-solid fa-shuffle playing__icon"></i>
+                    <i class="fa-solid fa-backward-step playing__icon"></i>
+                    <i class="fa-solid fa-play playing__icon"></i>
+                    <i class="fa-solid fa-pause playing__icon"></i>
+                    <i class="fa-solid fa-forward-step playing__icon"></i>
+                    <i class="fa-solid fa-repeat playing__icon active"></i>
+                </div>
+    
+                <div class="playing__volume">
+                    <i class="fa-solid fa-volume-xmark playing__icon"></i>
+                    <i class="fa-solid fa-volume-off playing__icon active"></i>
+                    <input type="range" name="volume" id="volume" min="0" step="10" max="100" value="10" >
+                    <i class="fa-solid fa-volume-high playing__icon"></i>
+                </div>
+            </div>
+            <div class="playing-playing">
+                <span class="playing__time-start">0:00</span>
+                <input id="music-playing" class="music-playing" type="range" value="0" step="1" min="0" max="100">
+                <audio id="audio" src=""></audio>
+                <span class="playing__time-end">5:00</span>
+            </div>
+        </div>
+        <div class="singer hide-on-mobile-tablet">
+            <img src="./assets/img/taylor-swift.jpg" alt="Singer" class="singer-img">
+            
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
